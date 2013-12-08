@@ -1,0 +1,1728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd2ecore:XSD2EcoreMappingRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsd2ecore="http://www.eclipse.org/emf/2002/XSD2Ecore" inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#/ http://www.w3.org/2001/xml.xsd#/"
+    outputs="owl.ecore#/ ../../org.eclipse.emf.ecore/model/XMLNamespace.ecore#/" topToBottom="true">
+  <nested inputs="bundleentry://555.fwk1367600679/cache/www.w3.org/2001/XMLSchema.xsd#//string;XSDSimpleTypeDefinition=9"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//abbreviatedIRI;XSDSimpleTypeDefinition"
+      outputs="owl.ecore#//AbbreviatedIRI"/>
+  <nested inputs="bundleentry://555.fwk1367600679/cache/www.w3.org/2001/XMLSchema.xsd#//anyURI;XSDSimpleTypeDefinition=25"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//AnyURI"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse"
+      outputs="owl.ecore#//AbbreviatedIRI1/base"/>
+  <nested inputs="bundleentry://555.fwk1367600679/cache/www.w3.org/2001/XMLSchema.xsd#//ID;XSDSimpleTypeDefinition=37"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//ID"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=3"
+      outputs="owl.ecore#//AbbreviatedIRI1/id"/>
+  <nested inputs="bundleentry://555.fwk1367600679/cache/www.w3.org/2001/XMLSchema.xsd#//language;XSDSimpleTypeDefinition=30"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//Language"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//lang;XSDAttributeDeclaration/XSDSimpleTypeDefinition/XSDSimpleTypeDefinition"
+      outputs="../../org.eclipse.emf.ecore/model/XMLNamespace.ecore#//LangTypeMember1">
+    <nested inputs="http://www.w3.org/2001/xml.xsd#//lang;XSDAttributeDeclaration/XSDSimpleTypeDefinition/XSDSimpleTypeDefinition/XSDEnumerationFacet"
+        outputs="../../org.eclipse.emf.ecore/model/XMLNamespace.ecore#//LangTypeMember1/_"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//lang;XSDAttributeDeclaration/XSDSimpleTypeDefinition"
+      outputs="../../org.eclipse.emf.ecore/model/XMLNamespace.ecore#//LangType"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=1"
+      outputs="owl.ecore#//AbbreviatedIRI1/lang"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//space;XSDAttributeDeclaration=1/XSDSimpleTypeDefinition"
+      outputs="../../org.eclipse.emf.ecore/model/XMLNamespace.ecore#//SpaceType">
+    <nested inputs="http://www.w3.org/2001/xml.xsd#//space;XSDAttributeDeclaration=1/XSDSimpleTypeDefinition/XSDEnumerationFacet"
+        outputs="../../org.eclipse.emf.ecore/model/XMLNamespace.ecore#//SpaceType/default"/>
+    <nested inputs="http://www.w3.org/2001/xml.xsd#//space;XSDAttributeDeclaration=1/XSDSimpleTypeDefinition/XSDEnumerationFacet=1"
+        outputs="../../org.eclipse.emf.ecore/model/XMLNamespace.ecore#//SpaceType/preserve"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=2"
+      outputs="owl.ecore#//AbbreviatedIRI1/space"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AbbreviatedIRI;XSDComplexTypeDefinition=80"
+      outputs="owl.ecore#//AbbreviatedIRI1"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AbbreviatedIRI;XSDElementDeclaration=68"
+      outputs="owl.ecore#//DocumentRoot/abbreviatedIRI"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//annotationAnnotations;XSDModelGroupDefinition=15/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//Annotation/annotation"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse"
+      outputs="owl.ecore#//AnnotationProperty/base"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=3"
+      outputs="owl.ecore#//AnnotationProperty/id"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=1"
+      outputs="owl.ecore#//AnnotationProperty/lang"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=2"
+      outputs="owl.ecore#//AnnotationProperty/space"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationProperty;XSDComplexTypeDefinition=7"
+      outputs="owl.ecore#//AnnotationProperty">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationProperty;XSDComplexTypeDefinition=7/XSDAttributeUse=1"
+        outputs="owl.ecore#//AnnotationProperty/abbreviatedIRI"/>
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationProperty;XSDComplexTypeDefinition=7/XSDAttributeUse"
+        outputs="owl.ecore#//AnnotationProperty/iRI"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse"
+      outputs="owl.ecore#//IRI/base"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=3"
+      outputs="owl.ecore#//IRI/id"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=1"
+      outputs="owl.ecore#//IRI/lang"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=2"
+      outputs="owl.ecore#//IRI/space"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//IRI;XSDComplexTypeDefinition=79"
+      outputs="owl.ecore#//IRI"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationValue;XSDModelGroupDefinition=12/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//Annotation/iRI"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationValue;XSDModelGroupDefinition=12/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//Annotation/abbreviatedIRI"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse"
+      outputs="owl.ecore#//Individual/base"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=3"
+      outputs="owl.ecore#//Individual/id"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=1"
+      outputs="owl.ecore#//Individual/lang"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=2"
+      outputs="owl.ecore#//Individual/space"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Individual;XSDComplexTypeDefinition=8"
+      outputs="owl.ecore#//Individual"/>
+  <nested inputs="bundleentry://555.fwk1367600679/cache/www.w3.org/2001/XMLSchema.xsd#//NCName;XSDSimpleTypeDefinition=36"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//NCName"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnonymousIndividual;XSDComplexTypeDefinition=10"
+      outputs="owl.ecore#//AnonymousIndividual">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnonymousIndividual;XSDComplexTypeDefinition=10/XSDAttributeUse"
+        outputs="owl.ecore#//AnonymousIndividual/nodeID"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationValue;XSDModelGroupDefinition=12/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//Annotation/anonymousIndividual"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse"
+      outputs="owl.ecore#//Literal/base"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=3"
+      outputs="owl.ecore#//Literal/id"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=1"
+      outputs="owl.ecore#//Literal/lang"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=2"
+      outputs="owl.ecore#//Literal/space"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Literal;XSDComplexTypeDefinition=11"
+      outputs="owl.ecore#//Literal">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Literal;XSDComplexTypeDefinition=11/XSDAttributeUse"
+        outputs="owl.ecore#//Literal/datatypeIRI"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationValue;XSDModelGroupDefinition=12/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//Annotation/literal"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse"
+      outputs="owl.ecore#//Annotation/base"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=3"
+      outputs="owl.ecore#//Annotation/id"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=1"
+      outputs="owl.ecore#//Annotation/lang"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=2"
+      outputs="owl.ecore#//Annotation/space"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Annotation;XSDComplexTypeDefinition=81"
+      outputs="owl.ecore#//Annotation">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Annotation;XSDComplexTypeDefinition=81/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="owl.ecore#//Annotation/annotationProperty"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Annotation;XSDElementDeclaration=69"
+      outputs="owl.ecore#//DocumentRoot/annotation"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//axiomAnnotations;XSDModelGroupDefinition=13/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//Axiom/annotation"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse"
+      outputs="owl.ecore#//Axiom/base"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=3"
+      outputs="owl.ecore#//Axiom/id"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=1"
+      outputs="owl.ecore#//Axiom/lang"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=2"
+      outputs="owl.ecore#//Axiom/space"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Axiom;XSDComplexTypeDefinition=41"
+      outputs="owl.ecore#//Axiom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationAxiom;XSDComplexTypeDefinition=82"
+      outputs="owl.ecore#//AnnotationAxiom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationSubject;XSDModelGroupDefinition=11/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//AnnotationAssertion/iRI"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationSubject;XSDModelGroupDefinition=11/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//AnnotationAssertion/abbreviatedIRI"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationSubject;XSDModelGroupDefinition=11/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//AnnotationAssertion/anonymousIndividual"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationValue;XSDModelGroupDefinition=12/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//AnnotationAssertion/iRI1"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationValue;XSDModelGroupDefinition=12/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//AnnotationAssertion/abbreviatedIRI1"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationValue;XSDModelGroupDefinition=12/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//AnnotationAssertion/anonymousIndividual1"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationValue;XSDModelGroupDefinition=12/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//AnnotationAssertion/literal"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationAssertion;XSDComplexTypeDefinition=83"
+      outputs="owl.ecore#//AnnotationAssertion">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationAssertion;XSDComplexTypeDefinition=83/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="owl.ecore#//AnnotationAssertion/annotationProperty"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationAssertion;XSDElementDeclaration=70"
+      outputs="owl.ecore#//DocumentRoot/annotationAssertion"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationProperty;XSDElementDeclaration=7"
+      outputs="owl.ecore#//DocumentRoot/annotationProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationPropertyDomain;XSDComplexTypeDefinition=85"
+      outputs="owl.ecore#//AnnotationPropertyDomain">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationPropertyDomain;XSDComplexTypeDefinition=85/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="owl.ecore#//AnnotationPropertyDomain/annotationProperty"/>
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationPropertyDomain;XSDComplexTypeDefinition=85/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="owl.ecore#//AnnotationPropertyDomain/iRI"/>
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationPropertyDomain;XSDComplexTypeDefinition=85/XSDParticle/XSDModelGroup/XSDParticle=2"
+        outputs="owl.ecore#//AnnotationPropertyDomain/abbreviatedIRI"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationPropertyDomain;XSDElementDeclaration=72"
+      outputs="owl.ecore#//DocumentRoot/annotationPropertyDomain"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationPropertyRange;XSDComplexTypeDefinition=86"
+      outputs="owl.ecore#//AnnotationPropertyRange">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationPropertyRange;XSDComplexTypeDefinition=86/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="owl.ecore#//AnnotationPropertyRange/annotationProperty"/>
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationPropertyRange;XSDComplexTypeDefinition=86/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="owl.ecore#//AnnotationPropertyRange/iRI"/>
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationPropertyRange;XSDComplexTypeDefinition=86/XSDParticle/XSDModelGroup/XSDParticle=2"
+        outputs="owl.ecore#//AnnotationPropertyRange/abbreviatedIRI"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationPropertyRange;XSDElementDeclaration=73"
+      outputs="owl.ecore#//DocumentRoot/annotationPropertyRange"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnonymousIndividual;XSDElementDeclaration=9"
+      outputs="owl.ecore#//DocumentRoot/anonymousIndividual"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyAxiom;XSDComplexTypeDefinition=47"
+      outputs="owl.ecore#//ObjectPropertyAxiom"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse"
+      outputs="owl.ecore#//ObjectPropertyExpression/base"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=3"
+      outputs="owl.ecore#//ObjectPropertyExpression/id"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=1"
+      outputs="owl.ecore#//ObjectPropertyExpression/lang"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=2"
+      outputs="owl.ecore#//ObjectPropertyExpression/space"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDComplexTypeDefinition=13"
+      outputs="owl.ecore#//ObjectPropertyExpression"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectProperty;XSDComplexTypeDefinition=5"
+      outputs="owl.ecore#//ObjectProperty">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectProperty;XSDComplexTypeDefinition=5/XSDAttributeUse=1"
+        outputs="owl.ecore#//ObjectProperty/abbreviatedIRI"/>
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectProperty;XSDComplexTypeDefinition=5/XSDAttributeUse"
+        outputs="owl.ecore#//ObjectProperty/iRI"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//AsymmetricObjectProperty/objectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectInverseOf;XSDComplexTypeDefinition=14"
+      outputs="owl.ecore#//ObjectInverseOf">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectInverseOf;XSDComplexTypeDefinition=14/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="owl.ecore#//ObjectInverseOf/objectProperty"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//AsymmetricObjectProperty/objectInverseOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AsymmetricObjectProperty;XSDComplexTypeDefinition=60"
+      outputs="owl.ecore#//AsymmetricObjectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AsymmetricObjectProperty;XSDElementDeclaration=50"
+      outputs="owl.ecore#//DocumentRoot/asymmetricObjectProperty"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse"
+      outputs="owl.ecore#//ClassExpression/base"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=3"
+      outputs="owl.ecore#//ClassExpression/id"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=1"
+      outputs="owl.ecore#//ClassExpression/lang"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=2"
+      outputs="owl.ecore#//ClassExpression/space"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDComplexTypeDefinition=23"
+      outputs="owl.ecore#//ClassExpression"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Class;XSDComplexTypeDefinition=3"
+      outputs="owl.ecore#//Class">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Class;XSDComplexTypeDefinition=3/XSDAttributeUse=1"
+        outputs="owl.ecore#//Class/abbreviatedIRI"/>
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Class;XSDComplexTypeDefinition=3/XSDAttributeUse"
+        outputs="owl.ecore#//Class/iRI"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Class;XSDElementDeclaration=3"
+      outputs="owl.ecore#//DocumentRoot/class"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Assertion;XSDComplexTypeDefinition=71"
+      outputs="owl.ecore#//Assertion"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//ClassAssertion/class"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//ObjectIntersectionOf/class"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//ObjectIntersectionOf/objectIntersectionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//ObjectUnionOf/class"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//ObjectUnionOf/objectIntersectionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//ObjectUnionOf/objectUnionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//ObjectComplementOf/class"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//ObjectComplementOf/objectIntersectionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//ObjectComplementOf/objectUnionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//ObjectComplementOf/objectComplementOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//NamedIndividual;XSDComplexTypeDefinition=9"
+      outputs="owl.ecore#//NamedIndividual">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//NamedIndividual;XSDComplexTypeDefinition=9/XSDAttributeUse=1"
+        outputs="owl.ecore#//NamedIndividual/abbreviatedIRI"/>
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//NamedIndividual;XSDComplexTypeDefinition=9/XSDAttributeUse"
+        outputs="owl.ecore#//NamedIndividual/iRI"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Individual;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//ObjectOneOf/namedIndividual"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Individual;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//ObjectOneOf/anonymousIndividual"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectOneOf;XSDComplexTypeDefinition=27"
+      outputs="owl.ecore#//ObjectOneOf">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectOneOf;XSDComplexTypeDefinition=27/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="owl.ecore#//ObjectOneOf/individual"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//ObjectComplementOf/objectOneOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//ObjectSomeValuesFrom/objectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//ObjectSomeValuesFrom/objectInverseOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//ObjectSomeValuesFrom/class"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//ObjectSomeValuesFrom/objectIntersectionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//ObjectSomeValuesFrom/objectUnionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//ObjectSomeValuesFrom/objectComplementOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//ObjectSomeValuesFrom/objectOneOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//ObjectSomeValuesFrom/objectSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//ObjectAllValuesFrom/objectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//ObjectAllValuesFrom/objectInverseOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//ObjectAllValuesFrom/class"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//ObjectAllValuesFrom/objectIntersectionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//ObjectAllValuesFrom/objectUnionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//ObjectAllValuesFrom/objectComplementOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//ObjectAllValuesFrom/objectOneOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//ObjectAllValuesFrom/objectSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=6"
+      outputs="owl.ecore#//ObjectAllValuesFrom/objectAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//ObjectHasValue/objectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//ObjectHasValue/objectInverseOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Individual;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//ObjectHasValue/namedIndividual"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Individual;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//ObjectHasValue/anonymousIndividual"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectHasValue;XSDComplexTypeDefinition=30"
+      outputs="owl.ecore#//ObjectHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=7"
+      outputs="owl.ecore#//ObjectAllValuesFrom/objectHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//ObjectHasSelf/objectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//ObjectHasSelf/objectInverseOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectHasSelf;XSDComplexTypeDefinition=31"
+      outputs="owl.ecore#//ObjectHasSelf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=8"
+      outputs="owl.ecore#//ObjectAllValuesFrom/objectHasSelf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//ObjectMinCardinality/objectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//ObjectMinCardinality/objectInverseOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//ObjectMinCardinality/class"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//ObjectMinCardinality/objectIntersectionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//ObjectMinCardinality/objectUnionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//ObjectMinCardinality/objectComplementOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//ObjectMinCardinality/objectOneOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//ObjectMinCardinality/objectSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=6"
+      outputs="owl.ecore#//ObjectMinCardinality/objectAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=7"
+      outputs="owl.ecore#//ObjectMinCardinality/objectHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=8"
+      outputs="owl.ecore#//ObjectMinCardinality/objectHasSelf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=9"
+      outputs="owl.ecore#//ObjectMinCardinality/objectMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//ObjectMaxCardinality/objectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//ObjectMaxCardinality/objectInverseOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//ObjectMaxCardinality/class"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//ObjectMaxCardinality/objectIntersectionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//ObjectMaxCardinality/objectUnionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//ObjectMaxCardinality/objectComplementOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//ObjectMaxCardinality/objectOneOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//ObjectMaxCardinality/objectSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=6"
+      outputs="owl.ecore#//ObjectMaxCardinality/objectAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=7"
+      outputs="owl.ecore#//ObjectMaxCardinality/objectHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=8"
+      outputs="owl.ecore#//ObjectMaxCardinality/objectHasSelf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=9"
+      outputs="owl.ecore#//ObjectMaxCardinality/objectMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=10"
+      outputs="owl.ecore#//ObjectMaxCardinality/objectMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//ObjectExactCardinality/objectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//ObjectExactCardinality/objectInverseOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//ObjectExactCardinality/class"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//ObjectExactCardinality/objectIntersectionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//ObjectExactCardinality/objectUnionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//ObjectExactCardinality/objectComplementOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//ObjectExactCardinality/objectOneOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//ObjectExactCardinality/objectSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=6"
+      outputs="owl.ecore#//ObjectExactCardinality/objectAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=7"
+      outputs="owl.ecore#//ObjectExactCardinality/objectHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=8"
+      outputs="owl.ecore#//ObjectExactCardinality/objectHasSelf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=9"
+      outputs="owl.ecore#//ObjectExactCardinality/objectMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=10"
+      outputs="owl.ecore#//ObjectExactCardinality/objectMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=11"
+      outputs="owl.ecore#//ObjectExactCardinality/objectExactCardinality"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse"
+      outputs="owl.ecore#//DataPropertyExpression/base"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=3"
+      outputs="owl.ecore#//DataPropertyExpression/id"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=1"
+      outputs="owl.ecore#//DataPropertyExpression/lang"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=2"
+      outputs="owl.ecore#//DataPropertyExpression/space"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataPropertyExpression;XSDComplexTypeDefinition=15"
+      outputs="owl.ecore#//DataPropertyExpression"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataProperty;XSDComplexTypeDefinition=6"
+      outputs="owl.ecore#//DataProperty">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataProperty;XSDComplexTypeDefinition=6/XSDAttributeUse=1"
+        outputs="owl.ecore#//DataProperty/abbreviatedIRI"/>
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataProperty;XSDComplexTypeDefinition=6/XSDAttributeUse"
+        outputs="owl.ecore#//DataProperty/iRI"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataPropertyExpression;XSDModelGroupDefinition=3/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//DataSomeValuesFrom/dataProperty"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse"
+      outputs="owl.ecore#//DataRange/base"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=3"
+      outputs="owl.ecore#//DataRange/id"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=1"
+      outputs="owl.ecore#//DataRange/lang"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=2"
+      outputs="owl.ecore#//DataRange/space"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDComplexTypeDefinition=16"
+      outputs="owl.ecore#//DataRange"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Datatype;XSDComplexTypeDefinition=4"
+      outputs="owl.ecore#//Datatype">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Datatype;XSDComplexTypeDefinition=4/XSDAttributeUse=1"
+        outputs="owl.ecore#//Datatype/abbreviatedIRI"/>
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Datatype;XSDComplexTypeDefinition=4/XSDAttributeUse"
+        outputs="owl.ecore#//Datatype/iRI"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//DataSomeValuesFrom/datatype"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//DataIntersectionOf/datatype"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//DataIntersectionOf/dataIntersectionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//DataUnionOf/datatype"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//DataUnionOf/dataIntersectionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//DataUnionOf/dataUnionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//DataComplementOf/datatype"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//DataComplementOf/dataIntersectionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//DataComplementOf/dataUnionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//DataComplementOf/dataComplementOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataOneOf;XSDComplexTypeDefinition=20"
+      outputs="owl.ecore#//DataOneOf">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataOneOf;XSDComplexTypeDefinition=20/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="owl.ecore#//DataOneOf/literal"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//DataComplementOf/dataOneOf"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse"
+      outputs="owl.ecore#//FacetRestriction/base"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=3"
+      outputs="owl.ecore#//FacetRestriction/id"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=1"
+      outputs="owl.ecore#//FacetRestriction/lang"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=2"
+      outputs="owl.ecore#//FacetRestriction/space"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//FacetRestriction;XSDComplexTypeDefinition=22"
+      outputs="owl.ecore#//FacetRestriction">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//FacetRestriction;XSDComplexTypeDefinition=22/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="owl.ecore#//FacetRestriction/literal"/>
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//FacetRestriction;XSDComplexTypeDefinition=22/XSDAttributeUse"
+        outputs="owl.ecore#//FacetRestriction/facet"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DatatypeRestriction;XSDComplexTypeDefinition=21"
+      outputs="owl.ecore#//DatatypeRestriction">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DatatypeRestriction;XSDComplexTypeDefinition=21/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="owl.ecore#//DatatypeRestriction/datatype"/>
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DatatypeRestriction;XSDComplexTypeDefinition=21/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="owl.ecore#//DatatypeRestriction/facetRestriction"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//DataComplementOf/datatypeRestriction"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataComplementOf;XSDComplexTypeDefinition=19"
+      outputs="owl.ecore#//DataComplementOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//DataUnionOf/dataComplementOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//DataUnionOf/dataOneOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//DataUnionOf/datatypeRestriction"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataUnionOf;XSDComplexTypeDefinition=18"
+      outputs="owl.ecore#//DataUnionOf">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataUnionOf;XSDComplexTypeDefinition=18/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="owl.ecore#//DataUnionOf/dataRange"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//DataIntersectionOf/dataUnionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//DataIntersectionOf/dataComplementOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//DataIntersectionOf/dataOneOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//DataIntersectionOf/datatypeRestriction"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataIntersectionOf;XSDComplexTypeDefinition=17"
+      outputs="owl.ecore#//DataIntersectionOf">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataIntersectionOf;XSDComplexTypeDefinition=17/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="owl.ecore#//DataIntersectionOf/dataRange"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//DataSomeValuesFrom/dataIntersectionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//DataSomeValuesFrom/dataUnionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//DataSomeValuesFrom/dataComplementOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//DataSomeValuesFrom/dataOneOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//DataSomeValuesFrom/datatypeRestriction"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataSomeValuesFrom;XSDComplexTypeDefinition=35"
+      outputs="owl.ecore#//DataSomeValuesFrom">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataSomeValuesFrom;XSDComplexTypeDefinition=35/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="owl.ecore#//DataSomeValuesFrom/dataPropertyExpression"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=12"
+      outputs="owl.ecore#//ObjectExactCardinality/dataSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataPropertyExpression;XSDModelGroupDefinition=3/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//DataAllValuesFrom/dataProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//DataAllValuesFrom/datatype"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//DataAllValuesFrom/dataIntersectionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//DataAllValuesFrom/dataUnionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//DataAllValuesFrom/dataComplementOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//DataAllValuesFrom/dataOneOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//DataAllValuesFrom/datatypeRestriction"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataAllValuesFrom;XSDComplexTypeDefinition=36"
+      outputs="owl.ecore#//DataAllValuesFrom">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataAllValuesFrom;XSDComplexTypeDefinition=36/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="owl.ecore#//DataAllValuesFrom/dataPropertyExpression"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=13"
+      outputs="owl.ecore#//ObjectExactCardinality/dataAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataPropertyExpression;XSDModelGroupDefinition=3/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//DataHasValue/dataProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataHasValue;XSDComplexTypeDefinition=37"
+      outputs="owl.ecore#//DataHasValue">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataHasValue;XSDComplexTypeDefinition=37/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="owl.ecore#//DataHasValue/literal"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=14"
+      outputs="owl.ecore#//ObjectExactCardinality/dataHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataPropertyExpression;XSDModelGroupDefinition=3/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//DataMinCardinality/dataProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//DataMinCardinality/datatype"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//DataMinCardinality/dataIntersectionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//DataMinCardinality/dataUnionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//DataMinCardinality/dataComplementOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//DataMinCardinality/dataOneOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//DataMinCardinality/datatypeRestriction"/>
+  <nested inputs="bundleentry://555.fwk1367600679/cache/www.w3.org/2001/XMLSchema.xsd#//nonNegativeInteger;XSDSimpleTypeDefinition=47"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//NonNegativeInteger"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataMinCardinality;XSDComplexTypeDefinition=38"
+      outputs="owl.ecore#//DataMinCardinality">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataMinCardinality;XSDComplexTypeDefinition=38/XSDAttributeUse"
+        outputs="owl.ecore#//DataMinCardinality/cardinality"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=15"
+      outputs="owl.ecore#//ObjectExactCardinality/dataMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataPropertyExpression;XSDModelGroupDefinition=3/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//DataMaxCardinality/dataProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//DataMaxCardinality/datatype"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//DataMaxCardinality/dataIntersectionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//DataMaxCardinality/dataUnionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//DataMaxCardinality/dataComplementOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//DataMaxCardinality/dataOneOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//DataMaxCardinality/datatypeRestriction"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataMaxCardinality;XSDComplexTypeDefinition=39"
+      outputs="owl.ecore#//DataMaxCardinality">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataMaxCardinality;XSDComplexTypeDefinition=39/XSDAttributeUse"
+        outputs="owl.ecore#//DataMaxCardinality/cardinality"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=16"
+      outputs="owl.ecore#//ObjectExactCardinality/dataMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataPropertyExpression;XSDModelGroupDefinition=3/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//DataExactCardinality/dataProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//DataExactCardinality/datatype"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//DataExactCardinality/dataIntersectionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//DataExactCardinality/dataUnionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//DataExactCardinality/dataComplementOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//DataExactCardinality/dataOneOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//DataExactCardinality/datatypeRestriction"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataExactCardinality;XSDComplexTypeDefinition=40"
+      outputs="owl.ecore#//DataExactCardinality">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataExactCardinality;XSDComplexTypeDefinition=40/XSDAttributeUse"
+        outputs="owl.ecore#//DataExactCardinality/cardinality"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=17"
+      outputs="owl.ecore#//ObjectExactCardinality/dataExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectExactCardinality;XSDComplexTypeDefinition=34"
+      outputs="owl.ecore#//ObjectExactCardinality">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectExactCardinality;XSDComplexTypeDefinition=34/XSDAttributeUse"
+        outputs="owl.ecore#//ObjectExactCardinality/cardinality"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=11"
+      outputs="owl.ecore#//ObjectMaxCardinality/objectExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=12"
+      outputs="owl.ecore#//ObjectMaxCardinality/dataSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=13"
+      outputs="owl.ecore#//ObjectMaxCardinality/dataAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=14"
+      outputs="owl.ecore#//ObjectMaxCardinality/dataHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=15"
+      outputs="owl.ecore#//ObjectMaxCardinality/dataMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=16"
+      outputs="owl.ecore#//ObjectMaxCardinality/dataMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=17"
+      outputs="owl.ecore#//ObjectMaxCardinality/dataExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectMaxCardinality;XSDComplexTypeDefinition=33"
+      outputs="owl.ecore#//ObjectMaxCardinality">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectMaxCardinality;XSDComplexTypeDefinition=33/XSDAttributeUse"
+        outputs="owl.ecore#//ObjectMaxCardinality/cardinality"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=10"
+      outputs="owl.ecore#//ObjectMinCardinality/objectMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=11"
+      outputs="owl.ecore#//ObjectMinCardinality/objectExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=12"
+      outputs="owl.ecore#//ObjectMinCardinality/dataSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=13"
+      outputs="owl.ecore#//ObjectMinCardinality/dataAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=14"
+      outputs="owl.ecore#//ObjectMinCardinality/dataHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=15"
+      outputs="owl.ecore#//ObjectMinCardinality/dataMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=16"
+      outputs="owl.ecore#//ObjectMinCardinality/dataMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=17"
+      outputs="owl.ecore#//ObjectMinCardinality/dataExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectMinCardinality;XSDComplexTypeDefinition=32"
+      outputs="owl.ecore#//ObjectMinCardinality">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectMinCardinality;XSDComplexTypeDefinition=32/XSDAttributeUse"
+        outputs="owl.ecore#//ObjectMinCardinality/cardinality"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=9"
+      outputs="owl.ecore#//ObjectAllValuesFrom/objectMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=10"
+      outputs="owl.ecore#//ObjectAllValuesFrom/objectMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=11"
+      outputs="owl.ecore#//ObjectAllValuesFrom/objectExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=12"
+      outputs="owl.ecore#//ObjectAllValuesFrom/dataSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=13"
+      outputs="owl.ecore#//ObjectAllValuesFrom/dataAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=14"
+      outputs="owl.ecore#//ObjectAllValuesFrom/dataHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=15"
+      outputs="owl.ecore#//ObjectAllValuesFrom/dataMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=16"
+      outputs="owl.ecore#//ObjectAllValuesFrom/dataMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=17"
+      outputs="owl.ecore#//ObjectAllValuesFrom/dataExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectAllValuesFrom;XSDComplexTypeDefinition=29"
+      outputs="owl.ecore#//ObjectAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=6"
+      outputs="owl.ecore#//ObjectSomeValuesFrom/objectAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=7"
+      outputs="owl.ecore#//ObjectSomeValuesFrom/objectHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=8"
+      outputs="owl.ecore#//ObjectSomeValuesFrom/objectHasSelf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=9"
+      outputs="owl.ecore#//ObjectSomeValuesFrom/objectMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=10"
+      outputs="owl.ecore#//ObjectSomeValuesFrom/objectMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=11"
+      outputs="owl.ecore#//ObjectSomeValuesFrom/objectExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=12"
+      outputs="owl.ecore#//ObjectSomeValuesFrom/dataSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=13"
+      outputs="owl.ecore#//ObjectSomeValuesFrom/dataAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=14"
+      outputs="owl.ecore#//ObjectSomeValuesFrom/dataHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=15"
+      outputs="owl.ecore#//ObjectSomeValuesFrom/dataMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=16"
+      outputs="owl.ecore#//ObjectSomeValuesFrom/dataMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=17"
+      outputs="owl.ecore#//ObjectSomeValuesFrom/dataExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectSomeValuesFrom;XSDComplexTypeDefinition=28"
+      outputs="owl.ecore#//ObjectSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//ObjectComplementOf/objectSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=6"
+      outputs="owl.ecore#//ObjectComplementOf/objectAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=7"
+      outputs="owl.ecore#//ObjectComplementOf/objectHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=8"
+      outputs="owl.ecore#//ObjectComplementOf/objectHasSelf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=9"
+      outputs="owl.ecore#//ObjectComplementOf/objectMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=10"
+      outputs="owl.ecore#//ObjectComplementOf/objectMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=11"
+      outputs="owl.ecore#//ObjectComplementOf/objectExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=12"
+      outputs="owl.ecore#//ObjectComplementOf/dataSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=13"
+      outputs="owl.ecore#//ObjectComplementOf/dataAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=14"
+      outputs="owl.ecore#//ObjectComplementOf/dataHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=15"
+      outputs="owl.ecore#//ObjectComplementOf/dataMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=16"
+      outputs="owl.ecore#//ObjectComplementOf/dataMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=17"
+      outputs="owl.ecore#//ObjectComplementOf/dataExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectComplementOf;XSDComplexTypeDefinition=26"
+      outputs="owl.ecore#//ObjectComplementOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//ObjectUnionOf/objectComplementOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//ObjectUnionOf/objectOneOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//ObjectUnionOf/objectSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=6"
+      outputs="owl.ecore#//ObjectUnionOf/objectAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=7"
+      outputs="owl.ecore#//ObjectUnionOf/objectHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=8"
+      outputs="owl.ecore#//ObjectUnionOf/objectHasSelf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=9"
+      outputs="owl.ecore#//ObjectUnionOf/objectMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=10"
+      outputs="owl.ecore#//ObjectUnionOf/objectMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=11"
+      outputs="owl.ecore#//ObjectUnionOf/objectExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=12"
+      outputs="owl.ecore#//ObjectUnionOf/dataSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=13"
+      outputs="owl.ecore#//ObjectUnionOf/dataAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=14"
+      outputs="owl.ecore#//ObjectUnionOf/dataHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=15"
+      outputs="owl.ecore#//ObjectUnionOf/dataMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=16"
+      outputs="owl.ecore#//ObjectUnionOf/dataMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=17"
+      outputs="owl.ecore#//ObjectUnionOf/dataExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectUnionOf;XSDComplexTypeDefinition=25"
+      outputs="owl.ecore#//ObjectUnionOf">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectUnionOf;XSDComplexTypeDefinition=25/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="owl.ecore#//ObjectUnionOf/classExpression"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//ObjectIntersectionOf/objectUnionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//ObjectIntersectionOf/objectComplementOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//ObjectIntersectionOf/objectOneOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//ObjectIntersectionOf/objectSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=6"
+      outputs="owl.ecore#//ObjectIntersectionOf/objectAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=7"
+      outputs="owl.ecore#//ObjectIntersectionOf/objectHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=8"
+      outputs="owl.ecore#//ObjectIntersectionOf/objectHasSelf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=9"
+      outputs="owl.ecore#//ObjectIntersectionOf/objectMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=10"
+      outputs="owl.ecore#//ObjectIntersectionOf/objectMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=11"
+      outputs="owl.ecore#//ObjectIntersectionOf/objectExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=12"
+      outputs="owl.ecore#//ObjectIntersectionOf/dataSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=13"
+      outputs="owl.ecore#//ObjectIntersectionOf/dataAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=14"
+      outputs="owl.ecore#//ObjectIntersectionOf/dataHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=15"
+      outputs="owl.ecore#//ObjectIntersectionOf/dataMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=16"
+      outputs="owl.ecore#//ObjectIntersectionOf/dataMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=17"
+      outputs="owl.ecore#//ObjectIntersectionOf/dataExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectIntersectionOf;XSDComplexTypeDefinition=24"
+      outputs="owl.ecore#//ObjectIntersectionOf">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectIntersectionOf;XSDComplexTypeDefinition=24/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="owl.ecore#//ObjectIntersectionOf/classExpression"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//ClassAssertion/objectIntersectionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//ClassAssertion/objectUnionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//ClassAssertion/objectComplementOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//ClassAssertion/objectOneOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//ClassAssertion/objectSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=6"
+      outputs="owl.ecore#//ClassAssertion/objectAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=7"
+      outputs="owl.ecore#//ClassAssertion/objectHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=8"
+      outputs="owl.ecore#//ClassAssertion/objectHasSelf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=9"
+      outputs="owl.ecore#//ClassAssertion/objectMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=10"
+      outputs="owl.ecore#//ClassAssertion/objectMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=11"
+      outputs="owl.ecore#//ClassAssertion/objectExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=12"
+      outputs="owl.ecore#//ClassAssertion/dataSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=13"
+      outputs="owl.ecore#//ClassAssertion/dataAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=14"
+      outputs="owl.ecore#//ClassAssertion/dataHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=15"
+      outputs="owl.ecore#//ClassAssertion/dataMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=16"
+      outputs="owl.ecore#//ClassAssertion/dataMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=17"
+      outputs="owl.ecore#//ClassAssertion/dataExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Individual;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//ClassAssertion/namedIndividual"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Individual;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//ClassAssertion/anonymousIndividual"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassAssertion;XSDComplexTypeDefinition=74"
+      outputs="owl.ecore#//ClassAssertion"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassAssertion;XSDElementDeclaration=62"
+      outputs="owl.ecore#//DocumentRoot/classAssertion"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataAllValuesFrom;XSDElementDeclaration=30"
+      outputs="owl.ecore#//DocumentRoot/dataAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataComplementOf;XSDElementDeclaration=15"
+      outputs="owl.ecore#//DocumentRoot/dataComplementOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataExactCardinality;XSDElementDeclaration=34"
+      outputs="owl.ecore#//DocumentRoot/dataExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataHasValue;XSDElementDeclaration=31"
+      outputs="owl.ecore#//DocumentRoot/dataHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataIntersectionOf;XSDElementDeclaration=13"
+      outputs="owl.ecore#//DocumentRoot/dataIntersectionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataMaxCardinality;XSDElementDeclaration=33"
+      outputs="owl.ecore#//DocumentRoot/dataMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataMinCardinality;XSDElementDeclaration=32"
+      outputs="owl.ecore#//DocumentRoot/dataMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataOneOf;XSDElementDeclaration=16"
+      outputs="owl.ecore#//DocumentRoot/dataOneOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataProperty;XSDElementDeclaration=6"
+      outputs="owl.ecore#//DocumentRoot/dataProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataPropertyExpression;XSDModelGroupDefinition=3/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//DataPropertyAssertion/dataProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Individual;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//DataPropertyAssertion/namedIndividual"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Individual;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//DataPropertyAssertion/anonymousIndividual"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataPropertyAssertion;XSDComplexTypeDefinition=77"
+      outputs="owl.ecore#//DataPropertyAssertion">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataPropertyAssertion;XSDComplexTypeDefinition=77/XSDParticle/XSDModelGroup/XSDParticle=2"
+        outputs="owl.ecore#//DataPropertyAssertion/literal"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataPropertyAssertion;XSDElementDeclaration=65"
+      outputs="owl.ecore#//DocumentRoot/dataPropertyAssertion"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataPropertyAxiom;XSDComplexTypeDefinition=62"
+      outputs="owl.ecore#//DataPropertyAxiom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataPropertyExpression;XSDModelGroupDefinition=3/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//DataPropertyDomain/dataProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//DataPropertyDomain/class"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//DataPropertyDomain/objectIntersectionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//DataPropertyDomain/objectUnionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//DataPropertyDomain/objectComplementOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//DataPropertyDomain/objectOneOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//DataPropertyDomain/objectSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=6"
+      outputs="owl.ecore#//DataPropertyDomain/objectAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=7"
+      outputs="owl.ecore#//DataPropertyDomain/objectHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=8"
+      outputs="owl.ecore#//DataPropertyDomain/objectHasSelf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=9"
+      outputs="owl.ecore#//DataPropertyDomain/objectMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=10"
+      outputs="owl.ecore#//DataPropertyDomain/objectMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=11"
+      outputs="owl.ecore#//DataPropertyDomain/objectExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=12"
+      outputs="owl.ecore#//DataPropertyDomain/dataSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=13"
+      outputs="owl.ecore#//DataPropertyDomain/dataAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=14"
+      outputs="owl.ecore#//DataPropertyDomain/dataHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=15"
+      outputs="owl.ecore#//DataPropertyDomain/dataMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=16"
+      outputs="owl.ecore#//DataPropertyDomain/dataMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=17"
+      outputs="owl.ecore#//DataPropertyDomain/dataExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataPropertyDomain;XSDComplexTypeDefinition=66"
+      outputs="owl.ecore#//DataPropertyDomain"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataPropertyDomain;XSDElementDeclaration=55"
+      outputs="owl.ecore#//DocumentRoot/dataPropertyDomain"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataPropertyExpression;XSDModelGroupDefinition=3/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//DataPropertyRange/dataProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//DataPropertyRange/datatype"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//DataPropertyRange/dataIntersectionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//DataPropertyRange/dataUnionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//DataPropertyRange/dataComplementOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//DataPropertyRange/dataOneOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//DataPropertyRange/datatypeRestriction"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataPropertyRange;XSDComplexTypeDefinition=67"
+      outputs="owl.ecore#//DataPropertyRange"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataPropertyRange;XSDElementDeclaration=56"
+      outputs="owl.ecore#//DocumentRoot/dataPropertyRange"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataSomeValuesFrom;XSDElementDeclaration=29"
+      outputs="owl.ecore#//DocumentRoot/dataSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Datatype;XSDElementDeclaration=4"
+      outputs="owl.ecore#//DocumentRoot/datatype"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//DatatypeDefinition/datatype1"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//DatatypeDefinition/dataIntersectionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//DatatypeDefinition/dataUnionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//DatatypeDefinition/dataComplementOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//DatatypeDefinition/dataOneOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataRange;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//DatatypeDefinition/datatypeRestriction"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DatatypeDefinition;XSDComplexTypeDefinition=69"
+      outputs="owl.ecore#//DatatypeDefinition">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DatatypeDefinition;XSDComplexTypeDefinition=69/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="owl.ecore#//DatatypeDefinition/datatype"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DatatypeDefinition;XSDElementDeclaration=58"
+      outputs="owl.ecore#//DocumentRoot/datatypeDefinition"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DatatypeRestriction;XSDElementDeclaration=17"
+      outputs="owl.ecore#//DocumentRoot/datatypeRestriction"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataUnionOf;XSDElementDeclaration=14"
+      outputs="owl.ecore#//DocumentRoot/dataUnionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Entity;XSDModelGroupDefinition/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//Declaration/class"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Entity;XSDModelGroupDefinition/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//Declaration/datatype"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Entity;XSDModelGroupDefinition/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//Declaration/objectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Entity;XSDModelGroupDefinition/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//Declaration/dataProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Entity;XSDModelGroupDefinition/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//Declaration/annotationProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Entity;XSDModelGroupDefinition/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//Declaration/namedIndividual"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Declaration;XSDComplexTypeDefinition=12"
+      outputs="owl.ecore#//Declaration"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Declaration;XSDElementDeclaration=11"
+      outputs="owl.ecore#//DocumentRoot/declaration"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Individual;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//DifferentIndividuals/namedIndividual"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Individual;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//DifferentIndividuals/anonymousIndividual"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DifferentIndividuals;XSDComplexTypeDefinition=73"
+      outputs="owl.ecore#//DifferentIndividuals">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DifferentIndividuals;XSDComplexTypeDefinition=73/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="owl.ecore#//DifferentIndividuals/individual"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DifferentIndividuals;XSDElementDeclaration=61"
+      outputs="owl.ecore#//DocumentRoot/differentIndividuals"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassAxiom;XSDComplexTypeDefinition=42"
+      outputs="owl.ecore#//ClassAxiom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//DisjointClasses/class"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//DisjointClasses/objectIntersectionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//DisjointClasses/objectUnionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//DisjointClasses/objectComplementOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//DisjointClasses/objectOneOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//DisjointClasses/objectSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=6"
+      outputs="owl.ecore#//DisjointClasses/objectAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=7"
+      outputs="owl.ecore#//DisjointClasses/objectHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=8"
+      outputs="owl.ecore#//DisjointClasses/objectHasSelf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=9"
+      outputs="owl.ecore#//DisjointClasses/objectMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=10"
+      outputs="owl.ecore#//DisjointClasses/objectMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=11"
+      outputs="owl.ecore#//DisjointClasses/objectExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=12"
+      outputs="owl.ecore#//DisjointClasses/dataSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=13"
+      outputs="owl.ecore#//DisjointClasses/dataAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=14"
+      outputs="owl.ecore#//DisjointClasses/dataHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=15"
+      outputs="owl.ecore#//DisjointClasses/dataMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=16"
+      outputs="owl.ecore#//DisjointClasses/dataMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=17"
+      outputs="owl.ecore#//DisjointClasses/dataExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DisjointClasses;XSDComplexTypeDefinition=45"
+      outputs="owl.ecore#//DisjointClasses">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DisjointClasses;XSDComplexTypeDefinition=45/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="owl.ecore#//DisjointClasses/classExpression"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DisjointClasses;XSDElementDeclaration=37"
+      outputs="owl.ecore#//DocumentRoot/disjointClasses"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataPropertyExpression;XSDModelGroupDefinition=3/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//DisjointDataProperties/dataProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DisjointDataProperties;XSDComplexTypeDefinition=65"
+      outputs="owl.ecore#//DisjointDataProperties">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DisjointDataProperties;XSDComplexTypeDefinition=65/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="owl.ecore#//DisjointDataProperties/dataPropertyExpression"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DisjointDataProperties;XSDElementDeclaration=54"
+      outputs="owl.ecore#//DocumentRoot/disjointDataProperties"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//DisjointObjectProperties/objectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//DisjointObjectProperties/objectInverseOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DisjointObjectProperties;XSDComplexTypeDefinition=51"
+      outputs="owl.ecore#//DisjointObjectProperties">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DisjointObjectProperties;XSDComplexTypeDefinition=51/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="owl.ecore#//DisjointObjectProperties/objectPropertyExpression"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DisjointObjectProperties;XSDElementDeclaration=41"
+      outputs="owl.ecore#//DocumentRoot/disjointObjectProperties"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//DisjointUnion/class1"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//DisjointUnion/objectIntersectionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//DisjointUnion/objectUnionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//DisjointUnion/objectComplementOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//DisjointUnion/objectOneOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//DisjointUnion/objectSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=6"
+      outputs="owl.ecore#//DisjointUnion/objectAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=7"
+      outputs="owl.ecore#//DisjointUnion/objectHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=8"
+      outputs="owl.ecore#//DisjointUnion/objectHasSelf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=9"
+      outputs="owl.ecore#//DisjointUnion/objectMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=10"
+      outputs="owl.ecore#//DisjointUnion/objectMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=11"
+      outputs="owl.ecore#//DisjointUnion/objectExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=12"
+      outputs="owl.ecore#//DisjointUnion/dataSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=13"
+      outputs="owl.ecore#//DisjointUnion/dataAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=14"
+      outputs="owl.ecore#//DisjointUnion/dataHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=15"
+      outputs="owl.ecore#//DisjointUnion/dataMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=16"
+      outputs="owl.ecore#//DisjointUnion/dataMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=17"
+      outputs="owl.ecore#//DisjointUnion/dataExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DisjointUnion;XSDComplexTypeDefinition=46"
+      outputs="owl.ecore#//DisjointUnion">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DisjointUnion;XSDComplexTypeDefinition=46/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="owl.ecore#//DisjointUnion/class"/>
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DisjointUnion;XSDComplexTypeDefinition=46/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="owl.ecore#//DisjointUnion/classExpression"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DisjointUnion;XSDElementDeclaration=38"
+      outputs="owl.ecore#//DocumentRoot/disjointUnion"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//EquivalentClasses/class"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//EquivalentClasses/objectIntersectionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//EquivalentClasses/objectUnionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//EquivalentClasses/objectComplementOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//EquivalentClasses/objectOneOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//EquivalentClasses/objectSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=6"
+      outputs="owl.ecore#//EquivalentClasses/objectAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=7"
+      outputs="owl.ecore#//EquivalentClasses/objectHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=8"
+      outputs="owl.ecore#//EquivalentClasses/objectHasSelf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=9"
+      outputs="owl.ecore#//EquivalentClasses/objectMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=10"
+      outputs="owl.ecore#//EquivalentClasses/objectMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=11"
+      outputs="owl.ecore#//EquivalentClasses/objectExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=12"
+      outputs="owl.ecore#//EquivalentClasses/dataSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=13"
+      outputs="owl.ecore#//EquivalentClasses/dataAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=14"
+      outputs="owl.ecore#//EquivalentClasses/dataHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=15"
+      outputs="owl.ecore#//EquivalentClasses/dataMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=16"
+      outputs="owl.ecore#//EquivalentClasses/dataMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=17"
+      outputs="owl.ecore#//EquivalentClasses/dataExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//EquivalentClasses;XSDComplexTypeDefinition=44"
+      outputs="owl.ecore#//EquivalentClasses">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//EquivalentClasses;XSDComplexTypeDefinition=44/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="owl.ecore#//EquivalentClasses/classExpression"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//EquivalentClasses;XSDElementDeclaration=36"
+      outputs="owl.ecore#//DocumentRoot/equivalentClasses"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataPropertyExpression;XSDModelGroupDefinition=3/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//EquivalentDataProperties/dataProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//EquivalentDataProperties;XSDComplexTypeDefinition=64"
+      outputs="owl.ecore#//EquivalentDataProperties">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//EquivalentDataProperties;XSDComplexTypeDefinition=64/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="owl.ecore#//EquivalentDataProperties/dataPropertyExpression"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//EquivalentDataProperties;XSDElementDeclaration=53"
+      outputs="owl.ecore#//DocumentRoot/equivalentDataProperties"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//EquivalentObjectProperties/objectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//EquivalentObjectProperties/objectInverseOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//EquivalentObjectProperties;XSDComplexTypeDefinition=50"
+      outputs="owl.ecore#//EquivalentObjectProperties">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//EquivalentObjectProperties;XSDComplexTypeDefinition=50/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="owl.ecore#//EquivalentObjectProperties/objectPropertyExpression"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//EquivalentObjectProperties;XSDElementDeclaration=40"
+      outputs="owl.ecore#//DocumentRoot/equivalentObjectProperties"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataPropertyExpression;XSDModelGroupDefinition=3/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//FunctionalDataProperty/dataProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//FunctionalDataProperty;XSDComplexTypeDefinition=68"
+      outputs="owl.ecore#//FunctionalDataProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//FunctionalDataProperty;XSDElementDeclaration=57"
+      outputs="owl.ecore#//DocumentRoot/functionalDataProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//FunctionalObjectProperty/objectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//FunctionalObjectProperty/objectInverseOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//FunctionalObjectProperty;XSDComplexTypeDefinition=55"
+      outputs="owl.ecore#//FunctionalObjectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//FunctionalObjectProperty;XSDElementDeclaration=45"
+      outputs="owl.ecore#//DocumentRoot/functionalObjectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//HasKey/class"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//HasKey/objectIntersectionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//HasKey/objectUnionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//HasKey/objectComplementOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//HasKey/objectOneOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//HasKey/objectSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=6"
+      outputs="owl.ecore#//HasKey/objectAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=7"
+      outputs="owl.ecore#//HasKey/objectHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=8"
+      outputs="owl.ecore#//HasKey/objectHasSelf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=9"
+      outputs="owl.ecore#//HasKey/objectMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=10"
+      outputs="owl.ecore#//HasKey/objectMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=11"
+      outputs="owl.ecore#//HasKey/objectExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=12"
+      outputs="owl.ecore#//HasKey/dataSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=13"
+      outputs="owl.ecore#//HasKey/dataAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=14"
+      outputs="owl.ecore#//HasKey/dataHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=15"
+      outputs="owl.ecore#//HasKey/dataMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=16"
+      outputs="owl.ecore#//HasKey/dataMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=17"
+      outputs="owl.ecore#//HasKey/dataExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//HasKey/objectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//HasKey/objectInverseOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataPropertyExpression;XSDModelGroupDefinition=3/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//HasKey/dataProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//HasKey;XSDComplexTypeDefinition=70"
+      outputs="owl.ecore#//HasKey">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//HasKey;XSDComplexTypeDefinition=70/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="owl.ecore#//HasKey/objectPropertyExpression"/>
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//HasKey;XSDComplexTypeDefinition=70/XSDParticle/XSDModelGroup/XSDParticle=2"
+        outputs="owl.ecore#//HasKey/dataPropertyExpression"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//HasKey;XSDElementDeclaration=59"
+      outputs="owl.ecore#//DocumentRoot/hasKey"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse"
+      outputs="owl.ecore#//Import/base"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=3"
+      outputs="owl.ecore#//Import/id"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=1"
+      outputs="owl.ecore#//Import/lang"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=2"
+      outputs="owl.ecore#//Import/space"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Import;XSDComplexTypeDefinition=1"
+      outputs="owl.ecore#//Import"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Import;XSDElementDeclaration=1"
+      outputs="owl.ecore#//DocumentRoot/import"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//InverseFunctionalObjectProperty/objectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//InverseFunctionalObjectProperty/objectInverseOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//InverseFunctionalObjectProperty;XSDComplexTypeDefinition=56"
+      outputs="owl.ecore#//InverseFunctionalObjectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//InverseFunctionalObjectProperty;XSDElementDeclaration=46"
+      outputs="owl.ecore#//DocumentRoot/inverseFunctionalObjectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//InverseObjectProperties/objectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//InverseObjectProperties/objectInverseOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//InverseObjectProperties;XSDComplexTypeDefinition=54"
+      outputs="owl.ecore#//InverseObjectProperties">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//InverseObjectProperties;XSDComplexTypeDefinition=54/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="owl.ecore#//InverseObjectProperties/objectPropertyExpression"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//InverseObjectProperties;XSDElementDeclaration=44"
+      outputs="owl.ecore#//DocumentRoot/inverseObjectProperties"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//IRI;XSDElementDeclaration=67"
+      outputs="owl.ecore#//DocumentRoot/iRI"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//IrreflexiveObjectProperty/objectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//IrreflexiveObjectProperty/objectInverseOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//IrreflexiveObjectProperty;XSDComplexTypeDefinition=58"
+      outputs="owl.ecore#//IrreflexiveObjectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//IrreflexiveObjectProperty;XSDElementDeclaration=48"
+      outputs="owl.ecore#//DocumentRoot/irreflexiveObjectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Literal;XSDElementDeclaration=10"
+      outputs="owl.ecore#//DocumentRoot/literal"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//NamedIndividual;XSDElementDeclaration=8"
+      outputs="owl.ecore#//DocumentRoot/namedIndividual"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataPropertyExpression;XSDModelGroupDefinition=3/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//NegativeDataPropertyAssertion/dataProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Individual;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//NegativeDataPropertyAssertion/namedIndividual"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Individual;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//NegativeDataPropertyAssertion/anonymousIndividual"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//NegativeDataPropertyAssertion;XSDComplexTypeDefinition=78"
+      outputs="owl.ecore#//NegativeDataPropertyAssertion">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//NegativeDataPropertyAssertion;XSDComplexTypeDefinition=78/XSDParticle/XSDModelGroup/XSDParticle=2"
+        outputs="owl.ecore#//NegativeDataPropertyAssertion/literal"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//NegativeDataPropertyAssertion;XSDElementDeclaration=66"
+      outputs="owl.ecore#//DocumentRoot/negativeDataPropertyAssertion"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//NegativeObjectPropertyAssertion/objectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//NegativeObjectPropertyAssertion/objectInverseOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Individual;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//NegativeObjectPropertyAssertion/namedIndividual"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Individual;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//NegativeObjectPropertyAssertion/anonymousIndividual"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Individual;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//NegativeObjectPropertyAssertion/namedIndividual1"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Individual;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//NegativeObjectPropertyAssertion/anonymousIndividual1"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//NegativeObjectPropertyAssertion;XSDComplexTypeDefinition=76"
+      outputs="owl.ecore#//NegativeObjectPropertyAssertion"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//NegativeObjectPropertyAssertion;XSDElementDeclaration=64"
+      outputs="owl.ecore#//DocumentRoot/negativeObjectPropertyAssertion"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectAllValuesFrom;XSDElementDeclaration=23"
+      outputs="owl.ecore#//DocumentRoot/objectAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectComplementOf;XSDElementDeclaration=20"
+      outputs="owl.ecore#//DocumentRoot/objectComplementOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectExactCardinality;XSDElementDeclaration=28"
+      outputs="owl.ecore#//DocumentRoot/objectExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectHasSelf;XSDElementDeclaration=25"
+      outputs="owl.ecore#//DocumentRoot/objectHasSelf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectHasValue;XSDElementDeclaration=24"
+      outputs="owl.ecore#//DocumentRoot/objectHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectIntersectionOf;XSDElementDeclaration=18"
+      outputs="owl.ecore#//DocumentRoot/objectIntersectionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectInverseOf;XSDElementDeclaration=12"
+      outputs="owl.ecore#//DocumentRoot/objectInverseOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectMaxCardinality;XSDElementDeclaration=27"
+      outputs="owl.ecore#//DocumentRoot/objectMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectMinCardinality;XSDElementDeclaration=26"
+      outputs="owl.ecore#//DocumentRoot/objectMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectOneOf;XSDElementDeclaration=21"
+      outputs="owl.ecore#//DocumentRoot/objectOneOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectProperty;XSDElementDeclaration=5"
+      outputs="owl.ecore#//DocumentRoot/objectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//ObjectPropertyAssertion/objectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//ObjectPropertyAssertion/objectInverseOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Individual;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//ObjectPropertyAssertion/namedIndividual"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Individual;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//ObjectPropertyAssertion/anonymousIndividual"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Individual;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//ObjectPropertyAssertion/namedIndividual1"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Individual;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//ObjectPropertyAssertion/anonymousIndividual1"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyAssertion;XSDComplexTypeDefinition=75"
+      outputs="owl.ecore#//ObjectPropertyAssertion"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyAssertion;XSDElementDeclaration=63"
+      outputs="owl.ecore#//DocumentRoot/objectPropertyAssertion"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//ObjectPropertyDomain/objectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//ObjectPropertyDomain/objectInverseOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//ObjectPropertyDomain/class"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//ObjectPropertyDomain/objectIntersectionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//ObjectPropertyDomain/objectUnionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//ObjectPropertyDomain/objectComplementOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//ObjectPropertyDomain/objectOneOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//ObjectPropertyDomain/objectSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=6"
+      outputs="owl.ecore#//ObjectPropertyDomain/objectAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=7"
+      outputs="owl.ecore#//ObjectPropertyDomain/objectHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=8"
+      outputs="owl.ecore#//ObjectPropertyDomain/objectHasSelf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=9"
+      outputs="owl.ecore#//ObjectPropertyDomain/objectMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=10"
+      outputs="owl.ecore#//ObjectPropertyDomain/objectMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=11"
+      outputs="owl.ecore#//ObjectPropertyDomain/objectExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=12"
+      outputs="owl.ecore#//ObjectPropertyDomain/dataSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=13"
+      outputs="owl.ecore#//ObjectPropertyDomain/dataAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=14"
+      outputs="owl.ecore#//ObjectPropertyDomain/dataHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=15"
+      outputs="owl.ecore#//ObjectPropertyDomain/dataMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=16"
+      outputs="owl.ecore#//ObjectPropertyDomain/dataMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=17"
+      outputs="owl.ecore#//ObjectPropertyDomain/dataExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyDomain;XSDComplexTypeDefinition=52"
+      outputs="owl.ecore#//ObjectPropertyDomain"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyDomain;XSDElementDeclaration=42"
+      outputs="owl.ecore#//DocumentRoot/objectPropertyDomain"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//ObjectPropertyRange/objectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//ObjectPropertyRange/objectInverseOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//ObjectPropertyRange/class"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//ObjectPropertyRange/objectIntersectionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//ObjectPropertyRange/objectUnionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//ObjectPropertyRange/objectComplementOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//ObjectPropertyRange/objectOneOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//ObjectPropertyRange/objectSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=6"
+      outputs="owl.ecore#//ObjectPropertyRange/objectAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=7"
+      outputs="owl.ecore#//ObjectPropertyRange/objectHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=8"
+      outputs="owl.ecore#//ObjectPropertyRange/objectHasSelf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=9"
+      outputs="owl.ecore#//ObjectPropertyRange/objectMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=10"
+      outputs="owl.ecore#//ObjectPropertyRange/objectMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=11"
+      outputs="owl.ecore#//ObjectPropertyRange/objectExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=12"
+      outputs="owl.ecore#//ObjectPropertyRange/dataSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=13"
+      outputs="owl.ecore#//ObjectPropertyRange/dataAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=14"
+      outputs="owl.ecore#//ObjectPropertyRange/dataHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=15"
+      outputs="owl.ecore#//ObjectPropertyRange/dataMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=16"
+      outputs="owl.ecore#//ObjectPropertyRange/dataMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=17"
+      outputs="owl.ecore#//ObjectPropertyRange/dataExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyRange;XSDComplexTypeDefinition=53"
+      outputs="owl.ecore#//ObjectPropertyRange"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyRange;XSDElementDeclaration=43"
+      outputs="owl.ecore#//DocumentRoot/objectPropertyRange"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectSomeValuesFrom;XSDElementDeclaration=22"
+      outputs="owl.ecore#//DocumentRoot/objectSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectUnionOf;XSDElementDeclaration=19"
+      outputs="owl.ecore#//DocumentRoot/objectUnionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Prefix;XSDComplexTypeDefinition/XSDAttributeUse/name;XSDAttributeDeclaration/XSDSimpleTypeDefinition"
+      outputs="owl.ecore#//NameType"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Prefix;XSDComplexTypeDefinition"
+      outputs="owl.ecore#//Prefix">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Prefix;XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="owl.ecore#//Prefix/iRI"/>
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Prefix;XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="owl.ecore#//Prefix/name"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ontologyAnnotations;XSDModelGroupDefinition=14/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//Ontology/annotation"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Axiom;XSDModelGroupDefinition=6/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//Ontology/declaration"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//SubClassOf/class"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//SubClassOf/objectIntersectionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//SubClassOf/objectUnionOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//SubClassOf/objectComplementOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//SubClassOf/objectOneOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//SubClassOf/objectSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=6"
+      outputs="owl.ecore#//SubClassOf/objectAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=7"
+      outputs="owl.ecore#//SubClassOf/objectHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=8"
+      outputs="owl.ecore#//SubClassOf/objectHasSelf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=9"
+      outputs="owl.ecore#//SubClassOf/objectMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=10"
+      outputs="owl.ecore#//SubClassOf/objectMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=11"
+      outputs="owl.ecore#//SubClassOf/objectExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=12"
+      outputs="owl.ecore#//SubClassOf/dataSomeValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=13"
+      outputs="owl.ecore#//SubClassOf/dataAllValuesFrom"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=14"
+      outputs="owl.ecore#//SubClassOf/dataHasValue"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=15"
+      outputs="owl.ecore#//SubClassOf/dataMinCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=16"
+      outputs="owl.ecore#//SubClassOf/dataMaxCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=17"
+      outputs="owl.ecore#//SubClassOf/dataExactCardinality"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//SubClassOf/class1"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//SubClassOf/objectIntersectionOf1"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//SubClassOf/objectUnionOf1"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//SubClassOf/objectComplementOf1"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//SubClassOf/objectOneOf1"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//SubClassOf/objectSomeValuesFrom1"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=6"
+      outputs="owl.ecore#//SubClassOf/objectAllValuesFrom1"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=7"
+      outputs="owl.ecore#//SubClassOf/objectHasValue1"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=8"
+      outputs="owl.ecore#//SubClassOf/objectHasSelf1"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=9"
+      outputs="owl.ecore#//SubClassOf/objectMinCardinality1"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=10"
+      outputs="owl.ecore#//SubClassOf/objectMaxCardinality1"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=11"
+      outputs="owl.ecore#//SubClassOf/objectExactCardinality1"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=12"
+      outputs="owl.ecore#//SubClassOf/dataSomeValuesFrom1"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=13"
+      outputs="owl.ecore#//SubClassOf/dataAllValuesFrom1"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=14"
+      outputs="owl.ecore#//SubClassOf/dataHasValue1"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=15"
+      outputs="owl.ecore#//SubClassOf/dataMinCardinality1"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=16"
+      outputs="owl.ecore#//SubClassOf/dataMaxCardinality1"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassExpression;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=17"
+      outputs="owl.ecore#//SubClassOf/dataExactCardinality1"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//SubClassOf;XSDComplexTypeDefinition=43"
+      outputs="owl.ecore#//SubClassOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassAxiom;XSDModelGroupDefinition=7/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//Ontology/subClassOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassAxiom;XSDModelGroupDefinition=7/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//Ontology/equivalentClasses"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassAxiom;XSDModelGroupDefinition=7/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//Ontology/disjointClasses"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ClassAxiom;XSDModelGroupDefinition=7/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//Ontology/disjointUnion"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//SubObjectPropertyOf/objectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//SubObjectPropertyOf/objectInverseOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//ObjectPropertyChain/objectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//ObjectPropertyChain/objectInverseOf"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse"
+      outputs="owl.ecore#//ObjectPropertyChain/base"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=3"
+      outputs="owl.ecore#//ObjectPropertyChain/id"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=1"
+      outputs="owl.ecore#//ObjectPropertyChain/lang"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=2"
+      outputs="owl.ecore#//ObjectPropertyChain/space"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyChain;XSDComplexTypeDefinition=49"
+      outputs="owl.ecore#//ObjectPropertyChain">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyChain;XSDComplexTypeDefinition=49/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="owl.ecore#//ObjectPropertyChain/objectPropertyExpression"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//SubObjectPropertyOf/objectProperty1"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//SubObjectPropertyOf/objectInverseOf1"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//SubObjectPropertyOf;XSDComplexTypeDefinition=48"
+      outputs="owl.ecore#//SubObjectPropertyOf">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//SubObjectPropertyOf;XSDComplexTypeDefinition=48/XSDParticle/XSDModelGroup/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="owl.ecore#//SubObjectPropertyOf/objectPropertyChain"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyAxiom;XSDModelGroupDefinition=8/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//Ontology/subObjectPropertyOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyAxiom;XSDModelGroupDefinition=8/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//Ontology/equivalentObjectProperties"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyAxiom;XSDModelGroupDefinition=8/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//Ontology/disjointObjectProperties"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyAxiom;XSDModelGroupDefinition=8/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//Ontology/inverseObjectProperties"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyAxiom;XSDModelGroupDefinition=8/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//Ontology/objectPropertyDomain"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyAxiom;XSDModelGroupDefinition=8/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//Ontology/objectPropertyRange"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyAxiom;XSDModelGroupDefinition=8/XSDModelGroup/XSDParticle=6"
+      outputs="owl.ecore#//Ontology/functionalObjectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyAxiom;XSDModelGroupDefinition=8/XSDModelGroup/XSDParticle=7"
+      outputs="owl.ecore#//Ontology/inverseFunctionalObjectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//ReflexiveObjectProperty/objectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//ReflexiveObjectProperty/objectInverseOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ReflexiveObjectProperty;XSDComplexTypeDefinition=57"
+      outputs="owl.ecore#//ReflexiveObjectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyAxiom;XSDModelGroupDefinition=8/XSDModelGroup/XSDParticle=8"
+      outputs="owl.ecore#//Ontology/reflexiveObjectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyAxiom;XSDModelGroupDefinition=8/XSDModelGroup/XSDParticle=9"
+      outputs="owl.ecore#//Ontology/irreflexiveObjectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//SymmetricObjectProperty/objectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//SymmetricObjectProperty/objectInverseOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//SymmetricObjectProperty;XSDComplexTypeDefinition=59"
+      outputs="owl.ecore#//SymmetricObjectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyAxiom;XSDModelGroupDefinition=8/XSDModelGroup/XSDParticle=10"
+      outputs="owl.ecore#//Ontology/symmetricObjectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyAxiom;XSDModelGroupDefinition=8/XSDModelGroup/XSDParticle=11"
+      outputs="owl.ecore#//Ontology/asymmetricObjectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//TransitiveObjectProperty/objectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyExpression;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//TransitiveObjectProperty/objectInverseOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//TransitiveObjectProperty;XSDComplexTypeDefinition=61"
+      outputs="owl.ecore#//TransitiveObjectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ObjectPropertyAxiom;XSDModelGroupDefinition=8/XSDModelGroup/XSDParticle=12"
+      outputs="owl.ecore#//Ontology/transitiveObjectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataPropertyExpression;XSDModelGroupDefinition=3/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//SubDataPropertyOf/dataProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataPropertyExpression;XSDModelGroupDefinition=3/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//SubDataPropertyOf/dataProperty1"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//SubDataPropertyOf;XSDComplexTypeDefinition=63"
+      outputs="owl.ecore#//SubDataPropertyOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataPropertyAxiom;XSDModelGroupDefinition=9/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//Ontology/subDataPropertyOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataPropertyAxiom;XSDModelGroupDefinition=9/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//Ontology/equivalentDataProperties"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataPropertyAxiom;XSDModelGroupDefinition=9/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//Ontology/disjointDataProperties"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataPropertyAxiom;XSDModelGroupDefinition=9/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//Ontology/dataPropertyDomain"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataPropertyAxiom;XSDModelGroupDefinition=9/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//Ontology/dataPropertyRange"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//DataPropertyAxiom;XSDModelGroupDefinition=9/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//Ontology/functionalDataProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Axiom;XSDModelGroupDefinition=6/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//Ontology/datatypeDefinition"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Axiom;XSDModelGroupDefinition=6/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//Ontology/hasKey"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Individual;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//SameIndividual/namedIndividual"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Individual;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//SameIndividual/anonymousIndividual"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//SameIndividual;XSDComplexTypeDefinition=72"
+      outputs="owl.ecore#//SameIndividual">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//SameIndividual;XSDComplexTypeDefinition=72/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="owl.ecore#//SameIndividual/individual"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Assertion;XSDModelGroupDefinition=10/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//Ontology/sameIndividual"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Assertion;XSDModelGroupDefinition=10/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//Ontology/differentIndividuals"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Assertion;XSDModelGroupDefinition=10/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//Ontology/classAssertion"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Assertion;XSDModelGroupDefinition=10/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//Ontology/objectPropertyAssertion"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Assertion;XSDModelGroupDefinition=10/XSDModelGroup/XSDParticle=4"
+      outputs="owl.ecore#//Ontology/negativeObjectPropertyAssertion"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Assertion;XSDModelGroupDefinition=10/XSDModelGroup/XSDParticle=5"
+      outputs="owl.ecore#//Ontology/dataPropertyAssertion"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Assertion;XSDModelGroupDefinition=10/XSDModelGroup/XSDParticle=6"
+      outputs="owl.ecore#//Ontology/negativeDataPropertyAssertion"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationAxiom;XSDModelGroupDefinition=16/XSDModelGroup/XSDParticle"
+      outputs="owl.ecore#//Ontology/annotationAssertion"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//SubAnnotationPropertyOf;XSDComplexTypeDefinition=84"
+      outputs="owl.ecore#//SubAnnotationPropertyOf">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//SubAnnotationPropertyOf;XSDComplexTypeDefinition=84/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="owl.ecore#//SubAnnotationPropertyOf/annotationProperty"/>
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//SubAnnotationPropertyOf;XSDComplexTypeDefinition=84/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="owl.ecore#//SubAnnotationPropertyOf/annotationProperty1"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationAxiom;XSDModelGroupDefinition=16/XSDModelGroup/XSDParticle=1"
+      outputs="owl.ecore#//Ontology/subAnnotationPropertyOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationAxiom;XSDModelGroupDefinition=16/XSDModelGroup/XSDParticle=2"
+      outputs="owl.ecore#//Ontology/annotationPropertyDomain"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//AnnotationAxiom;XSDModelGroupDefinition=16/XSDModelGroup/XSDParticle=3"
+      outputs="owl.ecore#//Ontology/annotationPropertyRange"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse"
+      outputs="owl.ecore#//Ontology/base"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=3"
+      outputs="owl.ecore#//Ontology/id"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=1"
+      outputs="owl.ecore#//Ontology/lang"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//specialAttrs;XSDAttributeGroupDefinition/XSDAttributeUse=2"
+      outputs="owl.ecore#//Ontology/space"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Ontology;XSDComplexTypeDefinition=2"
+      outputs="owl.ecore#//Ontology">
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Ontology;XSDComplexTypeDefinition=2/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="owl.ecore#//Ontology/prefix"/>
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Ontology;XSDComplexTypeDefinition=2/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="owl.ecore#//Ontology/import"/>
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Ontology;XSDComplexTypeDefinition=2/XSDParticle/XSDModelGroup/XSDParticle=3"
+        outputs="owl.ecore#//Ontology/axiom"/>
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Ontology;XSDComplexTypeDefinition=2/XSDAttributeUse"
+        outputs="owl.ecore#//Ontology/ontologyIRI"/>
+    <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Ontology;XSDComplexTypeDefinition=2/XSDAttributeUse=1"
+        outputs="owl.ecore#//Ontology/versionIRI"/>
+  </nested>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Ontology;XSDElementDeclaration=2"
+      outputs="owl.ecore#//DocumentRoot/ontology"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//Prefix;XSDElementDeclaration"
+      outputs="owl.ecore#//DocumentRoot/prefix"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//ReflexiveObjectProperty;XSDElementDeclaration=47"
+      outputs="owl.ecore#//DocumentRoot/reflexiveObjectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//SameIndividual;XSDElementDeclaration=60"
+      outputs="owl.ecore#//DocumentRoot/sameIndividual"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//SubAnnotationPropertyOf;XSDElementDeclaration=71"
+      outputs="owl.ecore#//DocumentRoot/subAnnotationPropertyOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//SubClassOf;XSDElementDeclaration=35"
+      outputs="owl.ecore#//DocumentRoot/subClassOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//SubDataPropertyOf;XSDElementDeclaration=52"
+      outputs="owl.ecore#//DocumentRoot/subDataPropertyOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//SubObjectPropertyOf;XSDElementDeclaration=39"
+      outputs="owl.ecore#//DocumentRoot/subObjectPropertyOf"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//SymmetricObjectProperty;XSDElementDeclaration=49"
+      outputs="owl.ecore#//DocumentRoot/symmetricObjectProperty"/>
+  <nested inputs="file:/F:/Eclipse%20-%20EAFI/workspace/owl2-xml.xsd#//TransitiveObjectProperty;XSDElementDeclaration=51"
+      outputs="owl.ecore#//DocumentRoot/transitiveObjectProperty"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//base;XSDAttributeDeclaration=2"
+      outputs="../../org.eclipse.emf.ecore/model/XMLNamespace.ecore#//DocumentRoot/base"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//id;XSDAttributeDeclaration=3" outputs="../../org.eclipse.emf.ecore/model/XMLNamespace.ecore#//DocumentRoot/id"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//lang;XSDAttributeDeclaration" outputs="../../org.eclipse.emf.ecore/model/XMLNamespace.ecore#//DocumentRoot/lang"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//space;XSDAttributeDeclaration=1"
+      outputs="../../org.eclipse.emf.ecore/model/XMLNamespace.ecore#//DocumentRoot/space"/>
+</xsd2ecore:XSD2EcoreMappingRoot>
