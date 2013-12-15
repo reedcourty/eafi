@@ -1,3 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
-    name="virtualization" nsURI="http://virtualization/1.0" nsPrefix="virtualization"/>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="virtualization" nsURI="http://virtualization/1.0" nsPrefix="virtualization">
+  <eClassifiers xsi:type="ecore:EClass" name="Machine">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="runs" upperBound="-1" eType="#//Machine"
+        eOpposite="#//Machine/runningBy"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="runningBy" eType="#//Machine"
+        eOpposite="#//Machine/runs"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasHardware" upperBound="-1"
+        eType="#//Hardware" containment="true" eOpposite="#//Hardware/hardwareOf"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="isVirtualized" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Infrastructure">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="member" upperBound="-1"
+        eType="#//Machine" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Hardware" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hardwareOf" eType="#//Machine"
+        eOpposite="#//Machine/hasHardware"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="isVirtualized" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Processor" eSuperTypes="#//Hardware">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Frequency" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Memory" eSuperTypes="#//Hardware">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Capacity" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Disk" eSuperTypes="#//Hardware">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Size" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NetworkInterfaceCard" eSuperTypes="#//Hardware">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Speed" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+</ecore:EPackage>
