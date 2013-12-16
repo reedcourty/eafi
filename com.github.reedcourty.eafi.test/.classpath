@@ -5,5 +5,7 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/com.github.reedcourty.eafi.graphgenerator"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/com.github.reedcourty.eafi.model"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="F:/Eclipse - EAFI/plugins/org.eclipse.emf.ecore_2.9.1.v20130827-0309.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse - EAFI/plugins/org.eclipse.emf.common_2.9.1.v20130827-0309.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
