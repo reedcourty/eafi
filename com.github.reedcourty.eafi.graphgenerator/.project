@@ -3,6 +3,7 @@
 	<name>com.github.reedcourty.eafi.graphgenerator</name>
 	<comment></comment>
 	<projects>
+		<project>com.github.reedcourty.eafi.model</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
