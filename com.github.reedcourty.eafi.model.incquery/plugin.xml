@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="databinding.isVirtualMachine"
+         point="org.eclipse.incquery.runtime.queryspecification">
+      <matcher
+            querySpecificationProvider="databinding.util.IsVirtualMachineQuerySpecification$Provider"
+            id="databinding.isVirtualMachine">
+      </matcher>
+   </extension>
+   <extension
+         id="databinding.getVirtualMachines"
+         point="org.eclipse.incquery.runtime.queryspecification">
+      <matcher
+            querySpecificationProvider="databinding.util.GetVirtualMachinesQuerySpecification$Provider"
+            id="databinding.getVirtualMachines">
+      </matcher>
+   </extension>
+
+</plugin>

@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: com.github.reedcourty.eafi.model.incquery
+Bundle-SymbolicName: com.github.reedcourty.eafi.model.incquery;singleton:=true
+Bundle-Version: 0.0.1.qualifier
+Export-Package: databinding,
+ databinding.util
+Require-Bundle: com.github.reedcourty.eafi.model,
+ org.eclipse.emf.ecore,
+ org.eclipse.emf.transaction,
+ org.eclipse.incquery.runtime,
+ org.eclipse.xtext.xbase.lib
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

@@ -1,0 +1,11 @@
+package databinding
+
+import "http://virtualization/1.0"
+
+pattern isVirtualMachine(machine : Machine) {
+    Machine.isVirtualized(machine, true);
+}
+
+pattern getVirtualMachines(machine : Machine) {
+    find isVirtualMachine(machine);
+}
